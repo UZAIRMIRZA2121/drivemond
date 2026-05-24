@@ -39,6 +39,7 @@ class LoginController extends BaseController
 
     public function loginView(): Renderable
     {
+        
         return view('authmanagement::login');
     }
 
